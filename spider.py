@@ -96,6 +96,7 @@ def main():
     for i in range(2,total[1] + 1):
         nextpage(i)
     getmessage()
+    browser.close()
 
 
 if __name__ == '__main__':
